@@ -1,0 +1,15 @@
+{
+  "name": "generate-album-artworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "ncu -u"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-check-updates": "^16.14.14"
+  }
+}
