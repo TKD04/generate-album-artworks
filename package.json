@@ -6,7 +6,8 @@
   "scripts": {
     "update": "ncu -u",
     "lint": "eslint .",
-    "generate": "gulp generateAlbumArtworks"
+    "generate": "gulp generateAlbumArtworks",
+    "clean": "gulp clean"
   },
   "keywords": [],
   "author": "",
