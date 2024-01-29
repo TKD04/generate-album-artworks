@@ -31,7 +31,7 @@ const convertToMozjpeg = (fileName) => {
 /**
  * @param {Function} cb the callback Gulp uses to check whether async task is compoleted
  */
-export const generateAlbumArtworks = async (cb) => {
+export default async (cb) => {
   const allDirents = await readdir(SRC_DIR_PATH, { withFileTypes: true });
   const files = allDirents.filter(
     (file) => file.isFile() && !file.name.includes(".DS_Store")
