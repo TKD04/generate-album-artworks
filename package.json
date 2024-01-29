@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "npm-check-updates": "^16.14.14"
   }
 }
