@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "del": "^7.1.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
-    "npm-check-updates": "^16.14.14"
+    "npm-check-updates": "^16.14.14",
+    "ora": "^8.0.1",
+    "sharp": "^0.33.2"
   }
 }
