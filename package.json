@@ -6,14 +6,12 @@
   "scripts": {
     "update": "ncu -u",
     "lint": "eslint .",
-    "generate": "gulp generateAlbumArtworks",
-    "clean": "gulp clean"
+    "generate": "gulp generateAlbumArtworks"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "del": "^7.1.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",

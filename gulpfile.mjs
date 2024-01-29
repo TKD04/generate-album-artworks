@@ -1,5 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { deleteAsync } from "del";
 import { existsSync } from "fs";
 import { mkdir, readdir } from "fs/promises";
 import path from "path";
@@ -47,5 +46,3 @@ export const generateAlbumArtworks = async (cb) => {
 
   cb();
 };
-
-export const clean = () => deleteAsync("./dist/**");
