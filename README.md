@@ -2,6 +2,15 @@
 
 A simple Node.js app to generate appropriate images for album artworks.
 
+## Default Settings
+
+- Encoder: mozjpeg
+- Quality: 75
+- maxWidth: 600px
+- maxHeight: 600px
+
+You can change these settings by changing `RESIZE_OPTION` and `FORMAT_OPTION` in the `gulpfile.mjs`.
+
 ## Install
 
 **NOTE**: You will need to install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) if you don't already have them.
