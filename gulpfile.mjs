@@ -7,7 +7,7 @@ import sharp from "sharp";
 const SRC_DIR_PATH = path.resolve("./src");
 const DIST_DIR_PATH = path.resolve("./dist");
 const RESIZE_OPSTION = {
-  fit: "cover",
+  fit: "inside",
   width: 600,
   height: 600,
   position: sharp.strategy.attention,
